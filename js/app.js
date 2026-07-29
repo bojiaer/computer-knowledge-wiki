@@ -543,6 +543,7 @@ function replyClose() {
 function communityOpen() {
   document.getElementById("mainPage").style.display = "none";
   document.getElementById("co").classList.add("open");
+  updateUserUI();
   setTimeout(renderC, 50);
 }
 
